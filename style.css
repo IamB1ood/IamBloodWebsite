@@ -1,31 +1,48 @@
-body {
-    background: linear-gradient(
-        135deg,
-        #080b1a,
-        #151c44,
-        #3b1f72
-    );
-    color: white;
+.social-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
-.hero {
-    height: 100vh;
-    background-image: url("stadium.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding-top: 250px;
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-.hero h1 {
-    font-size: 72px;
-    text-shadow: 0 0 20px #7c3aed;
+.social-item span {
+  color: white;
+  font-size: 16px;
 }
 
-.buttons a {
-    padding: 14px 28px;
-    background: #7c3aed;
-    border-radius: 10px;
-    text-decoration: none;
-    color: white;
+.social-icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.youtube {
+  background: #ff0000;
+}
+
+.tiktok {
+  background: #000000;
+}
+
+.twitch {
+  background: #9146ff;
 }
