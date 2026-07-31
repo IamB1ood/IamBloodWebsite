@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(
+        135deg,
+        #080b1a,
+        #151c44,
+        #3b1f72
+    );
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url("stadium.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.hero h1 {
+    font-size: 72px;
+    text-shadow: 0 0 20px #7c3aed;
+}
+
+.buttons a {
+    padding: 14px 28px;
+    background: #7c3aed;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
